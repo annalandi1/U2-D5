@@ -1,0 +1,46 @@
+
+body{
+    width:100%;
+    font-family: "Roboto", sans-serif;
+}
+
+
+header{
+    background-color: #ffc017;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    padding-block:20px;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 0.80em;
+    position: sticky;
+    top:0;
+}
+
+#logo{
+    padding-left:100px;
+   justify-content: flex-start;
+}
+
+nav ul{
+    margin-right: 100px;
+    display: flex;
+    list-style: none;
+    justify-content: right;
+}
+
+li{
+    padding-top: 12px;
+    display: inline-flex;
+    padding-inline: 15px;
+}
+#nav-get-started{
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding-block: 12px;
+}
+
+
+
